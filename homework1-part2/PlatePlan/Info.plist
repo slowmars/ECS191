@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Filled in from Secrets.xcconfig at build time. -->
+	<key>AnthropicAPIKey</key>
+	<string>$(ANTHROPIC_API_KEY)</string>
+	<!-- Cooking timers ring like the Clock app (AlarmKit) and show a Lock Screen countdown. -->
+	<key>NSAlarmKitUsageDescription</key>
+	<string>Cookd sets cooking timers that ring even when the app is closed or your phone is on silent.</string>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+</dict>
+</plist>

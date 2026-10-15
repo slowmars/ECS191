@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063DD32FE3BD1A7909A69511 /* ChefThinkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3838812216BE9F4B4B9912 /* ChefThinkingView.swift */; };
+		076E850415DF1DB0215E9F4D /* ingredients.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B4D7E973D8AA7B32FCE01 /* ingredients.json */; };
+		0A4F55321EE53AD36B7D9C78 /* RecipeIdeas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6B6D8E04E4A5ACE47D955 /* RecipeIdeas.swift */; };
+		0BF610CA94696EDE36CF3A37 /* RecipeDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5577E180232A2CFC05BE7223 /* RecipeDataTests.swift */; };
+		10D80B5F4B86C79CBCA87823 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23DA7C6938719A629DE0E22 /* LoginView.swift */; };
+		1A363E206B435A1BA3E9D152 /* AccountStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD0AD9415926B5F00C13BD /* AccountStore.swift */; };
+		1A5968F61C0D21396628D038 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233A9105E9D1B6FBD729897E /* Router.swift */; };
+		1C3016E216C9477331A299EF /* IngredientReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90254F4D68BB65653709860 /* IngredientReviewView.swift */; };
+		1F107AF55D3B0D7818239C7E /* AmountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0FF435C50314CD1B24A34 /* AmountTests.swift */; };
+		2098D0C1F6B88790193B74A2 /* Diet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5416876895C056FAEB1AE3 /* Diet.swift */; };
+		2358DBD46CAE0CF859C3B288 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27971D38D9BA1CF2A4183FF /* MatchesView.swift */; };
+		26A4E706568C63DEE87EA0E5 /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A837C2EB4C5A159B48D7664 /* ShoppingListView.swift */; };
+		2B50E9F58F9F3295BB144C0A /* PlatePlanTimerWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1158E9E910AA534C2F5118DF /* PlatePlanTimerWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DDF6D8773120B7B8E3004D0 /* PhotoCreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F71F8510933F7013ADAFB04 /* PhotoCreditsView.swift */; };
+		2F3D2ABDD3C268508BBA5DFE /* CookingTimerLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46072553CEF293FC08A9A180 /* CookingTimerLiveActivity.swift */; };
+		309CCD5DFE2ADAC12E6D54E8 /* RecipeMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C635A67FD0AC60935D107F06 /* RecipeMatcher.swift */; };
+		32844A9CB893CCEA58608508 /* StepReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99338E410B2FF8718C0EF4 /* StepReader.swift */; };
+		348C5D223142D7F71D62A5F4 /* PlatePlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9CBB6A876DC1AF78DE9966 /* PlatePlanApp.swift */; };
+		35A3AC1ED43D66210C156A20 /* RecipeIdeasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FF3F3D2DFCA0583B49266B /* RecipeIdeasView.swift */; };
+		43385E27DC845E72784D5837 /* PhotoFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC83E3C762CE5BE8BF30EA /* PhotoFinder.swift */; };
+		4EFB0BEBE4D096783DA123DC /* RecipeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD9CB0C1E917CCBC9AE360 /* RecipeComponents.swift */; };
+		550CCB979CCA1234B0B0A07D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512414F9E946549987657423 /* Recipe.swift */; };
+		5FF0BD2A9A60D5AFF1A35F89 /* ChefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F44F91FA8985F3FA16729 /* ChefView.swift */; };
+		640EDEEC31DDFE2E2CA72D10 /* RecipeLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856F756BDC13A6945E029A02 /* RecipeLibrary.swift */; };
+		654C76ABD5238371D35258D7 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = E319C70B53353D87309E19AC /* recipes.json */; };
+		6657D7154188D98F9E7026CA /* MealPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BF27AB361324538FE35B03 /* MealPlan.swift */; };
+		68114BA0DBD91E7FA7049411 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E5DE88BF0D5E579B1224F2 /* Theme.swift */; };
+		68F6935329D6EC7FEF19B9C2 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AD360875835D67598345DD /* RecipeDetailView.swift */; };
+		6A78BB4BD4FEE0F29274152F /* RecipeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2872C2DA56342BFF668A67 /* RecipeGenerator.swift */; };
+		6C0D690A8E8AE9CEEF3A35E3 /* CookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C2812812860AA8514DB36 /* CookingView.swift */; };
+		6C8B566A0211B97FCDF642A9 /* CookingTimerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6C0796430300B854873EA /* CookingTimerMetadata.swift */; };
+		6D1633E2B0082E91F0FF4FB8 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D25BE3299C62E5FA45B8CC /* ScanView.swift */; };
+		6E743BEAB0187D5C9A9A58FF /* ClaudeClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86F269B2EAB3ACD6AC9D98 /* ClaudeClientTests.swift */; };
+		7863DE320295AC1EC3BF8BF5 /* photo-credits.json in Resources */ = {isa = PBXBuildFile; fileRef = 9CA672C1D473E05C2DB76B90 /* photo-credits.json */; };
+		7EF5793955305C5FDCD04521 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AFD14E65E367C872D2B481 /* AccountTests.swift */; };
+		82533406ECD322AC0DBBE545 /* PhotoEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95C87A1DEEAF5B708803FA /* PhotoEncoding.swift */; };
+		89CCB4E9250A1A745EEB8388 /* StepTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84272352368C1428804B116 /* StepTimer.swift */; };
+		9071561DC38698EF2E55DD21 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22075F190B59BDCDA4DD4D8 /* WelcomeView.swift */; };
+		9149BF3ACA9673E2DC3070CE /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAAA529F47EF1BD370FF41 /* ShoppingList.swift */; };
+		9D090FA1E7217C6F038E5A14 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2D4AA6A4BA5489C279C6A /* CameraPicker.swift */; };
+		A473EBB0A28013B9BB444386 /* SavingsAdvisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A59BA5A79B05FB1C814D0 /* SavingsAdvisor.swift */; };
+		A98CEE0CEDB1E6A92C6EA20B /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFABB7A70AF503428C531E8 /* RecipesView.swift */; };
+		AC5DC6327250FCB0FE1CE203 /* AIRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40730BC4AFF17716640462E5 /* AIRecipeView.swift */; };
+		B411530564520C37014AED9B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535B6003DED75304F7BB3AE4 /* SettingsView.swift */; };
+		C78D091855CCEBC2C380D269 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F89E79A13F69B9C69A72D8E /* Keyboard.swift */; };
+		CC030405B3821B08190E013F /* ClaudeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1B423A161AD355C1AF5962 /* ClaudeClient.swift */; };
+		CCBA70330E25AF9E0FB4A3EC /* CookdMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3B150EB82A35B332F6289 /* CookdMark.swift */; };
+		CD9A4216268CAD1A0B9E7E58 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FCB2990F2DB677A1899DBB /* RootView.swift */; };
+		DA661A0363D1F5C4C053C345 /* SignInForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB839EDF42533230B044CAA8 /* SignInForms.swift */; };
+		DAF727421499AF40D338D139 /* CookingTimerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6C0796430300B854873EA /* CookingTimerMetadata.swift */; };
+		DE65E4209F9EC91A01C79CD6 /* StepTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AEC8970CDF2D746625A75E /* StepTimerTests.swift */; };
+		E249684F5B0B501B873A35B5 /* TimerCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE44573811FFFD59816C6E0 /* TimerCenter.swift */; };
+		E2CB004D0E813647FEE450B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9434F66492A5D726B35BCAE /* Assets.xcassets */; };
+		E305D8B43612999C1CA692C7 /* RecipeMatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FADB6D8A959F0CC68627C9F /* RecipeMatcherTests.swift */; };
+		E5CB05F9C496295AE5A9AEBC /* IngredientCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A43889A76DD77A23C411F3 /* IngredientCatalog.swift */; };
+		E9D664EB523F6A278CFAA016 /* IngredientScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C2DD728A7D62B90952796 /* IngredientScanner.swift */; };
+		F289B316D3C957301101EF72 /* ShoppingListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCDD38C200824222422B56A /* ShoppingListTests.swift */; };
+		F99B7BF9DA1AF74A04F99730 /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612A0517A646422FA4C326D /* Amount.swift */; };
+		F9F0582F6DA76C6EAF76E31E /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D5965691700883A3C06AEE /* PlanView.swift */; };
+		FA3F84C83C79764FF8322222 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65DA1E86C98130ADF01184 /* JSONValue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		483D6B0472DF64FDDE1B90A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B87D76128AABBEE4D879F784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48F621B96921B12751F966F;
+			remoteInfo = PlatePlanTimerWidget;
+		};
+		995F933A17AD5ADA68E2B6AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B87D76128AABBEE4D879F784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410C6A2CF1608F81679F9E30;
+			remoteInfo = PlatePlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A50BB3B06646D41F1202CC46 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2B50E9F58F9F3295BB144C0A /* PlatePlanTimerWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A837C2EB4C5A159B48D7664 /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
+		1158E9E910AA534C2F5118DF /* PlatePlanTimerWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = PlatePlanTimerWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FCB2990F2DB677A1899DBB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		140237584319C3A5FDCD24C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		14FF3F3D2DFCA0583B49266B /* RecipeIdeasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeIdeasView.swift; sourceTree = "<group>"; };
+		19D25BE3299C62E5FA45B8CC /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		1CBC83E3C762CE5BE8BF30EA /* PhotoFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFinder.swift; sourceTree = "<group>"; };
+		233A9105E9D1B6FBD729897E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		26D6B6D8E04E4A5ACE47D955 /* RecipeIdeas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeIdeas.swift; sourceTree = "<group>"; };
+		29BF27AB361324538FE35B03 /* MealPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlan.swift; sourceTree = "<group>"; };
+		2B5416876895C056FAEB1AE3 /* Diet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diet.swift; sourceTree = "<group>"; };
+		2C0B4D7E973D8AA7B32FCE01 /* ingredients.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ingredients.json; sourceTree = "<group>"; };
+		2D99338E410B2FF8718C0EF4 /* StepReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepReader.swift; sourceTree = "<group>"; };
+		2E3838812216BE9F4B4B9912 /* ChefThinkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefThinkingView.swift; sourceTree = "<group>"; };
+		30D6C0796430300B854873EA /* CookingTimerMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTimerMetadata.swift; sourceTree = "<group>"; };
+		362A59BA5A79B05FB1C814D0 /* SavingsAdvisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsAdvisor.swift; sourceTree = "<group>"; };
+		3AD3B150EB82A35B332F6289 /* CookdMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookdMark.swift; sourceTree = "<group>"; };
+		3B3710DA5B325D05768F0457 /* PlatePlanTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PlatePlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FADB6D8A959F0CC68627C9F /* RecipeMatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMatcherTests.swift; sourceTree = "<group>"; };
+		40730BC4AFF17716640462E5 /* AIRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIRecipeView.swift; sourceTree = "<group>"; };
+		46072553CEF293FC08A9A180 /* CookingTimerLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTimerLiveActivity.swift; sourceTree = "<group>"; };
+		474F44F91FA8985F3FA16729 /* ChefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefView.swift; sourceTree = "<group>"; };
+		4DFABB7A70AF503428C531E8 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		4F89E79A13F69B9C69A72D8E /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		512414F9E946549987657423 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		513C2812812860AA8514DB36 /* CookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingView.swift; sourceTree = "<group>"; };
+		535B6003DED75304F7BB3AE4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5577E180232A2CFC05BE7223 /* RecipeDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDataTests.swift; sourceTree = "<group>"; };
+		5612A0517A646422FA4C326D /* Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		56FD0AD9415926B5F00C13BD /* AccountStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStore.swift; sourceTree = "<group>"; };
+		63AEC8970CDF2D746625A75E /* StepTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTimerTests.swift; sourceTree = "<group>"; };
+		6CD2D4AA6A4BA5489C279C6A /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		72AFD14E65E367C872D2B481 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
+		735C2DD728A7D62B90952796 /* IngredientScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientScanner.swift; sourceTree = "<group>"; };
+		79A0FF435C50314CD1B24A34 /* AmountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountTests.swift; sourceTree = "<group>"; };
+		7A95C87A1DEEAF5B708803FA /* PhotoEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEncoding.swift; sourceTree = "<group>"; };
+		7F71F8510933F7013ADAFB04 /* PhotoCreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCreditsView.swift; sourceTree = "<group>"; };
+		856F756BDC13A6945E029A02 /* RecipeLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeLibrary.swift; sourceTree = "<group>"; };
+		8EBD9CB0C1E917CCBC9AE360 /* RecipeComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeComponents.swift; sourceTree = "<group>"; };
+		8F86F269B2EAB3ACD6AC9D98 /* ClaudeClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeClientTests.swift; sourceTree = "<group>"; };
+		9B2872C2DA56342BFF668A67 /* RecipeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeGenerator.swift; sourceTree = "<group>"; };
+		9CA672C1D473E05C2DB76B90 /* photo-credits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "photo-credits.json"; sourceTree = "<group>"; };
+		A23DA7C6938719A629DE0E22 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A27971D38D9BA1CF2A4183FF /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		A84272352368C1428804B116 /* StepTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTimer.swift; sourceTree = "<group>"; };
+		A90254F4D68BB65653709860 /* IngredientReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientReviewView.swift; sourceTree = "<group>"; };
+		AC65DA1E86C98130ADF01184 /* JSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		BAE44573811FFFD59816C6E0 /* TimerCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCenter.swift; sourceTree = "<group>"; };
+		BB839EDF42533230B044CAA8 /* SignInForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInForms.swift; sourceTree = "<group>"; };
+		BD3E21D8505DC9353A528E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C5A43889A76DD77A23C411F3 /* IngredientCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCatalog.swift; sourceTree = "<group>"; };
+		C635A67FD0AC60935D107F06 /* RecipeMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMatcher.swift; sourceTree = "<group>"; };
+		C9434F66492A5D726B35BCAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA9CBB6A876DC1AF78DE9966 /* PlatePlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatePlanApp.swift; sourceTree = "<group>"; };
+		CD1B423A161AD355C1AF5962 /* ClaudeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeClient.swift; sourceTree = "<group>"; };
+		D2AD360875835D67598345DD /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		DDCDD38C200824222422B56A /* ShoppingListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListTests.swift; sourceTree = "<group>"; };
+		E22075F190B59BDCDA4DD4D8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		E319C70B53353D87309E19AC /* recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		EDAAAA529F47EF1BD370FF41 /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+		F2E5DE88BF0D5E579B1224F2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F3D5965691700883A3C06AEE /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		F5B1CCBDCE07DCA23CB60678 /* PlatePlan.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PlatePlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TEMP_525F8548-2E63-4F32-A06F-B36A188295A4" /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		087CC7B28895A6F2DDC9A835 /* PlatePlanWidget */ = {
+			isa = PBXGroup;
+			children = (
+				46072553CEF293FC08A9A180 /* CookingTimerLiveActivity.swift */,
+				140237584319C3A5FDCD24C8 /* Info.plist */,
+			);
+			path = PlatePlanWidget;
+			sourceTree = "<group>";
+		};
+		397A3A07D128943182983D63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				513C2812812860AA8514DB36 /* CookingView.swift */,
+				7F71F8510933F7013ADAFB04 /* PhotoCreditsView.swift */,
+				F3D5965691700883A3C06AEE /* PlanView.swift */,
+				8EBD9CB0C1E917CCBC9AE360 /* RecipeComponents.swift */,
+				D2AD360875835D67598345DD /* RecipeDetailView.swift */,
+				4DFABB7A70AF503428C531E8 /* RecipesView.swift */,
+				12FCB2990F2DB677A1899DBB /* RootView.swift */,
+				0A837C2EB4C5A159B48D7664 /* ShoppingListView.swift */,
+				E22075F190B59BDCDA4DD4D8 /* WelcomeView.swift */,
+				3C9DE6C547B126B4269646B9 /* Account */,
+				3AC52C58F73D7C4CAFF886B4 /* Chef */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AC52C58F73D7C4CAFF886B4 /* Chef */ = {
+			isa = PBXGroup;
+			children = (
+				40730BC4AFF17716640462E5 /* AIRecipeView.swift */,
+				6CD2D4AA6A4BA5489C279C6A /* CameraPicker.swift */,
+				2E3838812216BE9F4B4B9912 /* ChefThinkingView.swift */,
+				474F44F91FA8985F3FA16729 /* ChefView.swift */,
+				A90254F4D68BB65653709860 /* IngredientReviewView.swift */,
+				A27971D38D9BA1CF2A4183FF /* MatchesView.swift */,
+				14FF3F3D2DFCA0583B49266B /* RecipeIdeasView.swift */,
+				19D25BE3299C62E5FA45B8CC /* ScanView.swift */,
+			);
+			path = Chef;
+			sourceTree = "<group>";
+		};
+		3C9DE6C547B126B4269646B9 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				A23DA7C6938719A629DE0E22 /* LoginView.swift */,
+				535B6003DED75304F7BB3AE4 /* SettingsView.swift */,
+				BB839EDF42533230B044CAA8 /* SignInForms.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		6A62833D4EDBE8167B18C8B2 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				3AD3B150EB82A35B332F6289 /* CookdMark.swift */,
+				4F89E79A13F69B9C69A72D8E /* Keyboard.swift */,
+				233A9105E9D1B6FBD729897E /* Router.swift */,
+				F2E5DE88BF0D5E579B1224F2 /* Theme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		8200A0FA2562E8865A25C1CC /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				CD1B423A161AD355C1AF5962 /* ClaudeClient.swift */,
+				735C2DD728A7D62B90952796 /* IngredientScanner.swift */,
+				AC65DA1E86C98130ADF01184 /* JSONValue.swift */,
+				7A95C87A1DEEAF5B708803FA /* PhotoEncoding.swift */,
+				1CBC83E3C762CE5BE8BF30EA /* PhotoFinder.swift */,
+				9B2872C2DA56342BFF668A67 /* RecipeGenerator.swift */,
+				26D6B6D8E04E4A5ACE47D955 /* RecipeIdeas.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		8B411FF00365D2903248FDC5 /* PlatePlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				72AFD14E65E367C872D2B481 /* AccountTests.swift */,
+				79A0FF435C50314CD1B24A34 /* AmountTests.swift */,
+				8F86F269B2EAB3ACD6AC9D98 /* ClaudeClientTests.swift */,
+				5577E180232A2CFC05BE7223 /* RecipeDataTests.swift */,
+				3FADB6D8A959F0CC68627C9F /* RecipeMatcherTests.swift */,
+				DDCDD38C200824222422B56A /* ShoppingListTests.swift */,
+				63AEC8970CDF2D746625A75E /* StepTimerTests.swift */,
+			);
+			path = PlatePlanTests;
+			sourceTree = "<group>";
+		};
+		9ACECC830BB354101C0320B2 /* PlatePlan */ = {
+			isa = PBXGroup;
+			children = (
+				C9434F66492A5D726B35BCAE /* Assets.xcassets */,
+				BD3E21D8505DC9353A528E13 /* Info.plist */,
+				CA9CBB6A876DC1AF78DE9966 /* PlatePlanApp.swift */,
+				8200A0FA2562E8865A25C1CC /* AI */,
+				6A62833D4EDBE8167B18C8B2 /* Design */,
+				F89BDDB0F21917A416938F0E /* Models */,
+				CE6E456E5D522E67FD40B135 /* Resources */,
+				9B062584DE2A5EFDC0B90F2E /* Speech */,
+				DB3138E60AC943A6AC8AC36C /* Timers */,
+				397A3A07D128943182983D63 /* Views */,
+			);
+			path = PlatePlan;
+			sourceTree = "<group>";
+		};
+		9B062584DE2A5EFDC0B90F2E /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				2D99338E410B2FF8718C0EF4 /* StepReader.swift */,
+			);
+			path = Speech;
+			sourceTree = "<group>";
+		};
+		CE6E456E5D522E67FD40B135 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C0B4D7E973D8AA7B32FCE01 /* ingredients.json */,
+				9CA672C1D473E05C2DB76B90 /* photo-credits.json */,
+				E319C70B53353D87309E19AC /* recipes.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB3138E60AC943A6AC8AC36C /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				BAE44573811FFFD59816C6E0 /* TimerCenter.swift */,
+			);
+			path = Timers;
+			sourceTree = "<group>";
+		};
+		E6D2F6340C606C837F6B7AE3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				30D6C0796430300B854873EA /* CookingTimerMetadata.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F67569B910B72D0275FAF443 = {
+			isa = PBXGroup;
+			children = (
+				9ACECC830BB354101C0320B2 /* PlatePlan */,
+				8B411FF00365D2903248FDC5 /* PlatePlanTests */,
+				087CC7B28895A6F2DDC9A835 /* PlatePlanWidget */,
+				E6D2F6340C606C837F6B7AE3 /* Shared */,
+				F9460CFCA0E358D8BF7841A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F89BDDB0F21917A416938F0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56FD0AD9415926B5F00C13BD /* AccountStore.swift */,
+				5612A0517A646422FA4C326D /* Amount.swift */,
+				2B5416876895C056FAEB1AE3 /* Diet.swift */,
+				C5A43889A76DD77A23C411F3 /* IngredientCatalog.swift */,
+				29BF27AB361324538FE35B03 /* MealPlan.swift */,
+				512414F9E946549987657423 /* Recipe.swift */,
+				856F756BDC13A6945E029A02 /* RecipeLibrary.swift */,
+				C635A67FD0AC60935D107F06 /* RecipeMatcher.swift */,
+				362A59BA5A79B05FB1C814D0 /* SavingsAdvisor.swift */,
+				EDAAAA529F47EF1BD370FF41 /* ShoppingList.swift */,
+				A84272352368C1428804B116 /* StepTimer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9460CFCA0E358D8BF7841A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B1CCBDCE07DCA23CB60678 /* PlatePlan.app */,
+				3B3710DA5B325D05768F0457 /* PlatePlanTests.xctest */,
+				1158E9E910AA534C2F5118DF /* PlatePlanTimerWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"TEMP_6988A86E-6351-4AE9-A683-394A43DAA33B" /* PlatePlan */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_525F8548-2E63-4F32-A06F-B36A188295A4" /* Config.xcconfig */,
+			);
+			path = PlatePlan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02486DD4577EBFF3CA9A9EBE /* PlatePlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4DF0E6C9384B379AC206BA /* Build configuration list for PBXNativeTarget "PlatePlanTests" */;
+			buildPhases = (
+				63F2A7BED41C49AD8B0B2702 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F58BDE74A49CDDB4A7662D /* PBXTargetDependency */,
+			);
+			name = PlatePlanTests;
+			packageProductDependencies = (
+			);
+			productName = PlatePlanTests;
+			productReference = 3B3710DA5B325D05768F0457 /* PlatePlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		410C6A2CF1608F81679F9E30 /* PlatePlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F192AA4232FCFBEC274B5122 /* Build configuration list for PBXNativeTarget "PlatePlan" */;
+			buildPhases = (
+				4BBB69A751FC7A0A9EE443BF /* Sources */,
+				DAEB15D502246B23FA54210B /* Resources */,
+				A50BB3B06646D41F1202CC46 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DF3BE0DC458F6744607714F /* PBXTargetDependency */,
+			);
+			name = PlatePlan;
+			packageProductDependencies = (
+			);
+			productName = PlatePlan;
+			productReference = F5B1CCBDCE07DCA23CB60678 /* PlatePlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D48F621B96921B12751F966F /* PlatePlanTimerWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CD0E09942CD054EF20445B /* Build configuration list for PBXNativeTarget "PlatePlanTimerWidget" */;
+			buildPhases = (
+				C443A29DA6EF01F4343D9267 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatePlanTimerWidget;
+			packageProductDependencies = (
+			);
+			productName = PlatePlanTimerWidget;
+			productReference = 1158E9E910AA534C2F5118DF /* PlatePlanTimerWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B87D76128AABBEE4D879F784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					02486DD4577EBFF3CA9A9EBE = {
+						DevelopmentTeam = M76UVM926F;
+					};
+					410C6A2CF1608F81679F9E30 = {
+						DevelopmentTeam = M76UVM926F;
+						ProvisioningStyle = Automatic;
+					};
+					D48F621B96921B12751F966F = {
+						DevelopmentTeam = M76UVM926F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 50D45D6FEBE33E895E5BF880 /* Build configuration list for PBXProject "PlatePlan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F67569B910B72D0275FAF443;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F9460CFCA0E358D8BF7841A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410C6A2CF1608F81679F9E30 /* PlatePlan */,
+				D48F621B96921B12751F966F /* PlatePlanTimerWidget */,
+				02486DD4577EBFF3CA9A9EBE /* PlatePlanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAEB15D502246B23FA54210B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CB004D0E813647FEE450B1 /* Assets.xcassets in Resources */,
+				076E850415DF1DB0215E9F4D /* ingredients.json in Resources */,
+				7863DE320295AC1EC3BF8BF5 /* photo-credits.json in Resources */,
+				654C76ABD5238371D35258D7 /* recipes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BBB69A751FC7A0A9EE443BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5DC6327250FCB0FE1CE203 /* AIRecipeView.swift in Sources */,
+				1A363E206B435A1BA3E9D152 /* AccountStore.swift in Sources */,
+				F99B7BF9DA1AF74A04F99730 /* Amount.swift in Sources */,
+				9D090FA1E7217C6F038E5A14 /* CameraPicker.swift in Sources */,
+				063DD32FE3BD1A7909A69511 /* ChefThinkingView.swift in Sources */,
+				5FF0BD2A9A60D5AFF1A35F89 /* ChefView.swift in Sources */,
+				CC030405B3821B08190E013F /* ClaudeClient.swift in Sources */,
+				CCBA70330E25AF9E0FB4A3EC /* CookdMark.swift in Sources */,
+				DAF727421499AF40D338D139 /* CookingTimerMetadata.swift in Sources */,
+				6C0D690A8E8AE9CEEF3A35E3 /* CookingView.swift in Sources */,
+				2098D0C1F6B88790193B74A2 /* Diet.swift in Sources */,
+				E5CB05F9C496295AE5A9AEBC /* IngredientCatalog.swift in Sources */,
+				1C3016E216C9477331A299EF /* IngredientReviewView.swift in Sources */,
+				E9D664EB523F6A278CFAA016 /* IngredientScanner.swift in Sources */,
+				FA3F84C83C79764FF8322222 /* JSONValue.swift in Sources */,
+				C78D091855CCEBC2C380D269 /* Keyboard.swift in Sources */,
+				10D80B5F4B86C79CBCA87823 /* LoginView.swift in Sources */,
+				2358DBD46CAE0CF859C3B288 /* MatchesView.swift in Sources */,
+				6657D7154188D98F9E7026CA /* MealPlan.swift in Sources */,
+				2DDF6D8773120B7B8E3004D0 /* PhotoCreditsView.swift in Sources */,
+				82533406ECD322AC0DBBE545 /* PhotoEncoding.swift in Sources */,
+				43385E27DC845E72784D5837 /* PhotoFinder.swift in Sources */,
+				F9F0582F6DA76C6EAF76E31E /* PlanView.swift in Sources */,
+				348C5D223142D7F71D62A5F4 /* PlatePlanApp.swift in Sources */,
+				550CCB979CCA1234B0B0A07D /* Recipe.swift in Sources */,
+				4EFB0BEBE4D096783DA123DC /* RecipeComponents.swift in Sources */,
+				68F6935329D6EC7FEF19B9C2 /* RecipeDetailView.swift in Sources */,
+				6A78BB4BD4FEE0F29274152F /* RecipeGenerator.swift in Sources */,
+				0A4F55321EE53AD36B7D9C78 /* RecipeIdeas.swift in Sources */,
+				35A3AC1ED43D66210C156A20 /* RecipeIdeasView.swift in Sources */,
+				640EDEEC31DDFE2E2CA72D10 /* RecipeLibrary.swift in Sources */,
+				309CCD5DFE2ADAC12E6D54E8 /* RecipeMatcher.swift in Sources */,
+				A98CEE0CEDB1E6A92C6EA20B /* RecipesView.swift in Sources */,
+				CD9A4216268CAD1A0B9E7E58 /* RootView.swift in Sources */,
+				1A5968F61C0D21396628D038 /* Router.swift in Sources */,
+				A473EBB0A28013B9BB444386 /* SavingsAdvisor.swift in Sources */,
+				6D1633E2B0082E91F0FF4FB8 /* ScanView.swift in Sources */,
+				B411530564520C37014AED9B /* SettingsView.swift in Sources */,
+				9149BF3ACA9673E2DC3070CE /* ShoppingList.swift in Sources */,
+				26A4E706568C63DEE87EA0E5 /* ShoppingListView.swift in Sources */,
+				DA661A0363D1F5C4C053C345 /* SignInForms.swift in Sources */,
+				32844A9CB893CCEA58608508 /* StepReader.swift in Sources */,
+				89CCB4E9250A1A745EEB8388 /* StepTimer.swift in Sources */,
+				68114BA0DBD91E7FA7049411 /* Theme.swift in Sources */,
+				E249684F5B0B501B873A35B5 /* TimerCenter.swift in Sources */,
+				9071561DC38698EF2E55DD21 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F2A7BED41C49AD8B0B2702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF5793955305C5FDCD04521 /* AccountTests.swift in Sources */,
+				1F107AF55D3B0D7818239C7E /* AmountTests.swift in Sources */,
+				6E743BEAB0187D5C9A9A58FF /* ClaudeClientTests.swift in Sources */,
+				0BF610CA94696EDE36CF3A37 /* RecipeDataTests.swift in Sources */,
+				E305D8B43612999C1CA692C7 /* RecipeMatcherTests.swift in Sources */,
+				F289B316D3C957301101EF72 /* ShoppingListTests.swift in Sources */,
+				DE65E4209F9EC91A01C79CD6 /* StepTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C443A29DA6EF01F4343D9267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3D2ABDD3C268508BBA5DFE /* CookingTimerLiveActivity.swift in Sources */,
+				6C8B566A0211B97FCDF642A9 /* CookingTimerMetadata.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82F58BDE74A49CDDB4A7662D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410C6A2CF1608F81679F9E30 /* PlatePlan */;
+			targetProxy = 995F933A17AD5ADA68E2B6AA /* PBXContainerItemProxy */;
+		};
+		9DF3BE0DC458F6744607714F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48F621B96921B12751F966F /* PlatePlanTimerWidget */;
+			targetProxy = 483D6B0472DF64FDDE1B90A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83BF2E6829EA8A189C4A70BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anantkatiyar.PlatePlanTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatePlan.app/PlatePlan";
+			};
+			name = Release;
+		};
+		84FAC310D66E263DAD751695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M76UVM926F;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		91E973EAF5905C396D891C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_525F8548-2E63-4F32-A06F-B36A188295A4" /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlatePlan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cookd;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cookd uses the camera to photograph your ingredients so it can suggest recipes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anantkatiyar.PlatePlan;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		980FB834879C687D3C8C92EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatePlanWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anantkatiyar.PlatePlan.TimerWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C736336C8B849AEFD2CB2DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anantkatiyar.PlatePlanTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatePlan.app/PlatePlan";
+			};
+			name = Debug;
+		};
+		E45D4A0B4BFC92BE152ADFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatePlanWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anantkatiyar.PlatePlan.TimerWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EC21C5072FAA587F88D3B6EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M76UVM926F;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		FB7013812A3EA39FF01114FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_525F8548-2E63-4F32-A06F-B36A188295A4" /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlatePlan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cookd;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cookd uses the camera to photograph your ingredients so it can suggest recipes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anantkatiyar.PlatePlan;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D45D6FEBE33E895E5BF880 /* Build configuration list for PBXProject "PlatePlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FAC310D66E263DAD751695 /* Debug */,
+				EC21C5072FAA587F88D3B6EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E4DF0E6C9384B379AC206BA /* Build configuration list for PBXNativeTarget "PlatePlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C736336C8B849AEFD2CB2DB8 /* Debug */,
+				83BF2E6829EA8A189C4A70BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D4CD0E09942CD054EF20445B /* Build configuration list for PBXNativeTarget "PlatePlanTimerWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980FB834879C687D3C8C92EA /* Debug */,
+				E45D4A0B4BFC92BE152ADFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F192AA4232FCFBEC274B5122 /* Build configuration list for PBXNativeTarget "PlatePlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E973EAF5905C396D891C59 /* Debug */,
+				FB7013812A3EA39FF01114FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B87D76128AABBEE4D879F784 /* Project object */;
+}

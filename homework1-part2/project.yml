@@ -1,0 +1,82 @@
+name: PlatePlan
+options:
+  bundleIdPrefix: com.anantkatiyar
+  deploymentTarget:
+    iOS: "26.1"
+  createIntermediateGroups: true
+settings:
+  base:
+    DEVELOPMENT_TEAM: M76UVM926F
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  PlatePlan:
+    type: application
+    platform: iOS
+    sources:
+      - PlatePlan
+      - Shared
+    dependencies:
+      - target: PlatePlanTimerWidget
+    configFiles:
+      Debug: Config.xcconfig
+      Release: Config.xcconfig
+    # Sign in with Apple needs a paid Apple Developer team. Once DEVELOPMENT_TEAM (top of this file) is
+    # the paid team's ID, uncomment these lines and run `xcodegen generate`.
+    # entitlements:
+    #   path: PlatePlan/PlatePlan.entitlements
+    #   properties:
+    #     com.apple.developer.applesignin: [Default]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.anantkatiyar.PlatePlan
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_FILE: PlatePlan/Info.plist
+        INFOPLIST_KEY_NSCameraUsageDescription: "Cookd uses the camera to photograph your ingredients so it can suggest recipes."
+        INFOPLIST_KEY_CFBundleDisplayName: Cookd
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_STYLE: Automatic
+  PlatePlanTimerWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - PlatePlanWidget
+      - Shared
+    info:
+      path: PlatePlanWidget/Info.plist
+      properties:
+        CFBundleDisplayName: Cookd Timers
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.anantkatiyar.PlatePlan.TimerWidget
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
+        SKIP_INSTALL: YES
+  PlatePlanTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - PlatePlanTests
+    dependencies:
+      - target: PlatePlan
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.anantkatiyar.PlatePlanTests
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  PlatePlan:
+    build:
+      targets:
+        PlatePlan: all
+        PlatePlanTests: [test]
+    test:
+      targets:
+        - PlatePlanTests

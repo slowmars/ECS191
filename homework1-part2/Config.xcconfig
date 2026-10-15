@@ -1,0 +1,7 @@
+// Build settings for the app target. Committed to git.
+//
+// Your Anthropic API key lives in Secrets.xcconfig, which is NOT committed (see .gitignore).
+// The "?" makes it optional: without it the app still builds and runs, and the Chef AI tab
+// explains how to add a key. To turn Chef AI on, copy Secrets.example.xcconfig to
+// Secrets.xcconfig and paste your key there.
+#include? "Secrets.xcconfig"
